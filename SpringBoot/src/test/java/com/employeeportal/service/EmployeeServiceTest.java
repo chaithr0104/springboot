@@ -50,7 +50,7 @@ public class EmployeeServiceTest extends ApplicationTest{
 		Mockito.when(employeeRepo.save(employee)).thenReturn(employee);
 		assertNotNull(employee);
 		assertNotNull(service.createEmployee(employee));
-		assertEquals("Gangaraj", employee.getLastName());
+		assertEquals("Gangaraj", service.createEmployee(employee).getLastName());
 	}
 
 	@Test
