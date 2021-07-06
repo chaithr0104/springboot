@@ -28,7 +28,7 @@ public class SwaggerConfig {
 		      "Some employee related APIs (Employee Portal Test)", 
 		      "API TOS", 
 		      "Terms of service", 
-		      new Contact("Chaithra Gangaraj", "https://github.com/TechReporter", "chaithra.g10@gmail.com"), 
+		      new Contact("Chaithra Gangaraj", "https://github.com/chaithr0104/springboot.git", "chaithra.g10@gmail.com"), 
 		      "License of API", "API license URL", Collections.emptyList());
 		}
 }
